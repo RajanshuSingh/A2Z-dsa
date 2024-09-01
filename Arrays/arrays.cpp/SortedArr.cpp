@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+class Solution {
+
+    bool check(vector<int>& nums) {
+        int n = nums.size();
+        int count = 0;
+        
+        
+        for (int i = 1; i < n; i++)
+            if (nums[i - 1] > nums[i])
+                count++;
+        
+        
+        if (nums[n - 1] > nums[0])  // check for the last element and the first element whether they are circular or not
+            count++;
+        
+       
+        return count <= 1;
+    }
+};
