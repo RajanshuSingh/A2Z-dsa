@@ -14,7 +14,7 @@ void twoSumBrute(vector<int> &arr, int sum){
 }
 
 string twoSumOptimal(int n,vector<int> &arr, int target)
-    {
+    
          {
     sort(arr.begin(), arr.end());
     int left = 0, right = n - 1;
@@ -28,7 +28,7 @@ string twoSumOptimal(int n,vector<int> &arr, int target)
     }
     return "NO";
 }
-    }
+    
 
 int main(){
     int n;
