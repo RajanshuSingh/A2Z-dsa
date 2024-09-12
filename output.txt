@@ -1,1 +1,2 @@
-The Final matrix is: n1 0 1 n0 0 0 n1 0 1 n
+Rotated Image
+7 4 1 n 8 5 2 n 9 6 3 n 
