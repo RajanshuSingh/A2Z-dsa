@@ -32,7 +32,7 @@ int main()
 // }
     
 
-    //for unordered map
+    //for unordered mpp
 
     {
         int n;
