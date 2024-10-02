@@ -8,7 +8,7 @@ int main()
 //     for(int i=0;i<n;i++){
 //         cin>>arr[i];      //input array elements
 //     }
-//     //precompute
+//     //precompu
 
 //     map<int,int> mpp;   //map to store the frequency of each element
 //     for(int i=0;i<n;i++){  //iterate over the array
