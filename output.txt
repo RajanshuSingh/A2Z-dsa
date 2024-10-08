@@ -1,1 +1,0 @@
-The majority elements are: 11 33 
