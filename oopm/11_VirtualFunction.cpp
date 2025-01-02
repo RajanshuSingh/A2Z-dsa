@@ -5,9 +5,13 @@ using namespace std;
 class Animal{
 
 public:
-virtual void speak(){ //yha virtual keyword lgane se complier compile time me na read krke run time me krega
-    cout<<"HU HU\n";
-}
+// virtual void speak(){ //yha virtual keyword lgane se complier compile time me na read krke run time me krega
+//     cout<<"HU HU\n";
+// }
+
+virtual void speak()=0; //Pure virtual function // abstract class
+//iska kbhi bhi koi object create ni hoga.
+//bs iska pointer lene k liye isko lia h
 };
 
 class Dog: public Animal{
@@ -53,7 +57,7 @@ Animal *p;
 vector<Animal*> animals;
 animals.push_back(new Dog());
 animals.push_back(new Cat());
-animals.push_back(new Animal());
+// animals.push_back(new Animal());
 animals.push_back(new Dog());
 animals.push_back(new Cat());
 
