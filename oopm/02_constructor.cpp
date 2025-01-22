@@ -12,7 +12,7 @@ Customer(){         //default constructor
     name="rajanshu";
     accountNo= 123455;
     balance=45;
-}
+};
 
 
 
@@ -27,7 +27,7 @@ Customer(Customer &B){
     accountNo=B.accountNo;
     balance=B.balance;
 
-}
+};
 
 void display(){
     cout<<name<<" "<<accountNo<<" "<<balance<<endl;
@@ -38,13 +38,14 @@ int main()
 {
     Customer obj,obj1;
     Customer obj3("motibhains", 23,1000);
+    // obj1.display();
     obj.display();
     obj3.display();  
-    Customer obj4(obj1);   //copy constructor syntax
+    Customer obj4(obj3);   //copy constructor syntax
     obj4.display();
     //other method of copy constructor
     Customer obj5;
-    obj5 =obj4;
+    obj5 =obj1;
     obj5.display();
 
 
